@@ -1,0 +1,30 @@
+{
+  "name": "botanajs",
+  "version": "1.0.0",
+  "description": "Bot de telegram para Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurojcordoba/botanajs.git"
+  },
+  "author": "maurojcordoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurojcordoba/botanajs/issues"
+  },
+  "homepage": "https://github.com/maurojcordoba/botanajs#readme",
+  "dependencies": {
+    "telegraf": "^4.8.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "fast-xml-parser": "^4.0.7",
+    "html-entities": "^2.3.3"    
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "vercel": "^24.2.3"
+  }
+}
